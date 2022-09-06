@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
@@ -26,4 +26,41 @@
 .container h1 {
   margin-top: 50px;
   color: #333;
+}
+
+h1 {
+  margin-bottom: 4rem;
+}
+
+.brandContainer {
+  margin: 3rem auto;
+}
+
+.brandName {
+  padding-bottom: 2rem;
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  #output {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .brandContainer {
+    width: 40%;
+  }
+
+  ul {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .brandContainer {
+    width: 33%;
+    padding: 1rem;
+  }
 }
