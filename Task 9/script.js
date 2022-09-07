@@ -23,3 +23,10 @@ class Movie {
     }
   }
 }
+
+// test:
+// const ironMan = new Movie("Iron Man: Reborn", "Tom Cruise", 10000000);
+
+// console.log(ironMan.wasExpensive());
+
+// output: false

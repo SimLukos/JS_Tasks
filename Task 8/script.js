@@ -10,18 +10,22 @@ function Calculator(a, b) {
   this.b = b;
 
   this.sum = function () {
-    console.log(this.a + this.b);
+    return this.a + this.b;
   };
 
   this.subtraction = function () {
-    console.log(this.a - this.b);
+    return this.a - this.b;
   };
 
   this.multiplication = function () {
-    console.log(this.a * this.b);
+    return this.a * this.b;
   };
 
   this.division = function () {
-    console.log(this.a / this.b);
+    return this.a / this.b;
   };
 }
+
+// test:
+// new Calculator(10, 11).sum();
+// output: 21
