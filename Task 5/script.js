@@ -36,6 +36,7 @@ function filterDogOwners(data) {
   console.log(usersHaveDogs);
 }
 
+// calling method
 filterDogOwners(users);
 
 // ---------------
@@ -48,4 +49,5 @@ function filterAdults(data) {
   console.log(grownUps);
 }
 
+// calling method
 filterAdults(users);
